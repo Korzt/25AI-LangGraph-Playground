@@ -1,0 +1,11 @@
+langgraph
+langchain
+ipython
+langchain_openai
+langchain_community
+dotenv
+typing
+chromadb
+langchain_chroma
+langchain_google_genai
+langchain_mcp_adapters
