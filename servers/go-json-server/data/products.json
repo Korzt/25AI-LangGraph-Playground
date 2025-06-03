@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "category": "electronics",
+      "price": 29.99,
+      "in_stock": true,
+      "rating": 4.5,
+      "tags": ["peripheral", "usb", "wireless"],
+      "created_at": "2025-01-15T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Bluetooth Headphones",
+      "category": "electronics",
+      "price": 89.99,
+      "in_stock": false,
+      "rating": 4.7,
+      "tags": ["audio", "wireless", "bluetooth"],
+      "created_at": "2025-02-10T08:30:00Z"
+    },
+    {
+      "id": 3,
+      "name": "The Go Programming Language",
+      "category": "books",
+      "price": 44.95,
+      "in_stock": true,
+      "rating": 4.9,
+      "tags": ["programming", "golang", "book"],
+      "created_at": "2024-12-01T13:45:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Yoga Mat",
+      "category": "sports",
+      "price": 22.50,
+      "in_stock": true,
+      "rating": 4.3,
+      "tags": ["fitness", "exercise", "mat"],
+      "created_at": "2025-01-01T07:20:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Men's Running Shoes",
+      "category": "apparel",
+      "price": 74.99,
+      "in_stock": true,
+      "rating": 4.6,
+      "tags": ["shoes", "running", "men"],
+      "created_at": "2025-03-21T09:50:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Portable Charger",
+      "category": "electronics",
+      "price": 39.95,
+      "in_stock": false,
+      "rating": 4.4,
+      "tags": ["battery", "mobile", "powerbank"],
+      "created_at": "2025-02-15T14:00:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Stainless Steel Water Bottle",
+      "category": "kitchen",
+      "price": 19.99,
+      "in_stock": true,
+      "rating": 4.2,
+      "tags": ["drinkware", "eco", "reusable"],
+      "created_at": "2025-01-30T11:00:00Z"
+    },
+    {
+      "id": 8,
+      "name": "LED Desk Lamp",
+      "category": "furniture",
+      "price": 34.99,
+      "in_stock": true,
+      "rating": 4.5,
+      "tags": ["lighting", "desk", "lamp"],
+      "created_at": "2025-04-05T16:10:00Z"
+    },
+    {
+      "id": 9,
+      "name": "Cotton T-shirt",
+      "category": "apparel",
+      "price": 14.99,
+      "in_stock": false,
+      "rating": 4.1,
+      "tags": ["shirt", "cotton", "clothing"],
+      "created_at": "2025-02-25T18:45:00Z"
+    },
+    {
+      "id": 10,
+      "name": "Noise Cancelling Earbuds",
+      "category": "electronics",
+      "price": 99.99,
+      "in_stock": true,
+      "rating": 4.8,
+      "tags": ["audio", "earbuds", "noise-cancelling"],
+      "created_at": "2025-03-10T12:00:00Z"
+    }
+  ]
+  

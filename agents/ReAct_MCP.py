@@ -26,6 +26,11 @@ async def main():
             "args": ["mcp-servers/weather-server.py"],
             "transport": "stdio"
         },
+        "ProductCatalog": {
+            "command": "python",
+            "args": ["mcp-servers/go-json-server.py"],
+            "transport": "stdio"
+        },
     })
 
     tools = await client.get_tools()
@@ -55,7 +60,9 @@ async def main():
 
     app = graph.compile()
 
-    inputs = {"messages": [HumanMessage(content="Add 40 + 12 and then multiply the result by 6. Also briefly tell me the weather alerts in CA")]}
+    user_input = "Using the list_products tool, tell me all products available in my catalogue. Then create a bulletpoint format list."
+    inputs = {"messages": [HumanMessage(content=user_input)]}
+    # inputs = {"messages": [HumanMessage(content="Add 40 + 12 and then multiply the result by 6. Also briefly tell me the weather alerts in CA")]}
     
     async def print_stream(stream):
         async for step in stream:
